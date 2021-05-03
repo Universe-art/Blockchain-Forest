@@ -24,11 +24,50 @@ Les arbres sont régulièrement surveillés et des photos mises en ligne pour su
 # Statut du projet
 Developpement du projet avec pour objectif Proof of Concept en juin 2021.
 
-# Environnement technique
+# Installation
+Install npm
+Install the Solidity Compiler version 0.6.11
+Clone the Github repository
+git clone @github.com/Universe-art/Blockchain-Forest/tree/main
+Install the npm packages for the back-end and the front-end
+Install the npm packages for the back-end
+
+npm install
+ℹ️ You will need to update pragma solidity version in @uniswap/v2-periphery/libraries/SafeMath.sol for 0.6.11
+
+Install the npm packages for the front-end
 
 
-Les exigences concernant l’environnement de développement en vue de son intégration.
-Une instruction pour l’installation et l’utilisation.
+Deploy
+You need to deploy the smart contract BlockchainForestDefi.sol
+
+Deploy on a Test Network
+Deploy the contracts on the kovan environment
+npm truffle deploy --network kovan
+
+
+Set the smart contract in the Front-End
+Modify the smart contract address in main.js file (variable : defiAddress)
+
+Install local server software on your machine
+https://www.npmjs.com/package/lite-server
+
+Run
+Run local server on your machine by the command lite-server, in the directory of the application
+
+Run ganache on port 7545 beforehand
+
+npm truffle deploy --reset --network kovan
+
+npm truffle test # Run the unit and integration tests
+Code Coverage
+Runs the tests then displays a report of the smart-contracts code coverage.
+
+npm run coverage
+Gas Report
+To get a report of the gas consumed by the smart-contracts while running the tests.
+
+You will need some Dai on Kovan to test the app.
 
 # Technologies utilisées
 HTML / NodeJS / Solidity
