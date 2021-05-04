@@ -85,8 +85,7 @@ The functions which do the swap / remove liquidity / add liquidity are restricte
     }
     
 ```   
-
-Our **Guard Check** also operates in those functions.
+```
 
 ## Checks Effects Interactions
 
