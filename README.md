@@ -52,7 +52,6 @@ Modify the smart contract address in main.js file (variable : defiAddress)
 Install local server software on your machine
 https://www.npmjs.com/package/lite-server
 
-Run
 Run local server on your machine by the command lite-server, in the directory of the application
 
 Run ganache on port 7545 beforehand
