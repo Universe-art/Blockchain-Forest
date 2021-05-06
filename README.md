@@ -68,8 +68,10 @@ To get a report of the gas consumed by the smart-contracts while running the tes
 
 You will need some Dai on Kovan to test the app.
 
-# Technologies utilisées
-HTML / NodeJS / Solidity
+You can connect to Metamask, launch the app, get some Dai and contribute to ChainForest !
+
+# Technologies 
+HTML / NodeJS / Solidity / Truffle
 
 
 # FAQ
